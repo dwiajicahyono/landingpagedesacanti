@@ -1,0 +1,40 @@
+
+.navbar{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600 !important;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.hero{
+    background-image: url("../assets/herobg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.herotitle{
+    font-size: 36px;
+    font-weight: 800;
+}
+.herodesc{
+    color: #DBDBDB;
+    font-size: 20px !important;
+    font-weight: 600;
+    padding-top: 5pt ;
+    padding-bottom: 15pt;
+}
+.tombolhero{
+    background-color: #6558F5;
+    color:#F5F5F5;
+    font-weight: 700;
+}
+.tombolhero:hover{
+    background-color: #7569f1 !important;
+}

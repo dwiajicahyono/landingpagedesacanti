@@ -12,7 +12,7 @@
 .hero{
     background-image: url("../assets/herobg.png");
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed;  Berfungsi Untuk Efek Paralax*/
   background-size: cover;
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
@@ -32,9 +32,11 @@
     background-color: #6558F5;
     color:#F5F5F5;
     font-weight: 700;
+    margin-bottom: 64px;
 }
 .tombolhero:hover{
     background-color: #7569f1 !important;
+    color:#F5F5F5 !important;
 }
 .floatsec{
     position: relative;
@@ -45,7 +47,7 @@
 
 
 .herosec .icon-box {
-    padding: 60px 30px;
+    padding: 5px 30px;
     position: relative;
     width: 610px;
     height: 163px;
@@ -76,4 +78,29 @@
 display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.icon-box{
+  font-family: 'Montserrat', sans-serif;
+  color: #323333;
+}
+
+.location{
+  padding-top: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #272727;
+}
+
+.tdokumentasi{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #272727;
+}
+.ddokumentasi{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #444343;
 }
